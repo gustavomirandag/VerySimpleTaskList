@@ -13,8 +13,6 @@ namespace ConsoleApp
         //3 - Criar a interface "ITaskRepository" (apenas create e readAll)
         //4 - Criar o repositório "TaskListRepository"
 
-
-
         static void Main(string[] args)
         {
             var service = new TaskService(new TaskListRepository());
